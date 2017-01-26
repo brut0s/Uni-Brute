@@ -6,7 +6,7 @@ Supports http | https | irc | smtp
 
 Has a built in target profiler.
 
-# Uni-Brute To-Do list
+# Uni-Brute To-Do List
 
 - [ ] Create the To-Do List
 
