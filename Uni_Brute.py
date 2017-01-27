@@ -58,9 +58,9 @@ if ans == "4":
 while ans == "1":
 	
 
-print("Ok Now I Need Some Intel About The Target,
+print("""Ok Now I Need Some Intel About The Target,
 		Select from the following and Input the Targets Info,
-		Once completed, you will be asked to confirm The Current Settings")
+		Once completed, you will be asked to confirm The Current Settings""")
 
 print("""
     [1]Enter DOB
