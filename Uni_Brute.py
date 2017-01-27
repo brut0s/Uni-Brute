@@ -44,11 +44,11 @@ if ans == "1":
 	text_file.write("\npassword3")
 	text_file.close()
 	print("\nPassword list created.")
-ifelf ans == "2":
+if ans == "2":
     print("\n Create Custom List of UserNames")
-ifelf ans == "3":
+if ans == "3":
     print("\n Cracking Account")
-ifelf ans == "4":
+if ans == "4":
     print("\n Thank you for using UniBrute")
 
 # Will uncomment the below line once I remember how to make this correctly work.
