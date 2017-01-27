@@ -58,7 +58,7 @@ if ans == "4":
 while ans == "1":
 	
 
-print("""Ok Now I Need Some Intel About The Target,
+	print("""Ok Now I Need Some Intel About The Target,
 		Select from the following and Input the Targets Info,
 		Once completed, you will be asked to confirm The Current Settings""")
 
@@ -81,7 +81,7 @@ print("""
 
 while ans == "2":
 
-print("To Generate Custom List of UserNames I Need The Following: "
+	print("To Generate Custom List of UserNames I Need The Following: ")
 	
 print("""
     [1]Enter First Name
@@ -100,13 +100,13 @@ while ans == "3":
 	
 url_to_scrape = raw_input("Enter The Targets Source Account, via Website: ")
 
-url = requests.get(url_to_scrape)
+# url = requests.get(url_to_scrape)
 
-for inmates in inmates:
-	
-	if inmates['login'] in inmates
-
-print inmate
+# for inmates in inmates:
+#	
+#   	if inmates['login'] in inmates
+#
+# print inmate
 
 #lines of code from 102-110 is a website crawler for scaping, printing out, and confirming the login page of site, still working on it
 
