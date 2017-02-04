@@ -10,9 +10,13 @@ Has a built in target profiler.
 
 - [ ] Finish working on the main module
 - [ ] Create the http module
+- [ ] Integrate the http module
 - [ ] Create the https module
+- [ ] Integrate the https module
 - [ ] Create the irc module
+- [ ] Integrate the irc module
 - [ ] Create the smtp module
+- [ ] Integrate the smtp module
 - [ ] Clean up the code
 - [X] Create the To-Do List
 
