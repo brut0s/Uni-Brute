@@ -13,8 +13,8 @@ Has a built in target profiler.
 - [ ] Create the https module
 - [ ] Create the irc module
 - [ ] Create the smtp module
-- [ ] Create the To-Do List
 - [ ] Clean up the code
+- [X] Create the To-Do List
 
 # DISCLAIMER
 
