@@ -8,6 +8,11 @@ Has a built in target profiler.
 
 # Uni-Brute To-Do List
 
+- [ ] Finish working on the main module
+- [ ] Create the http module
+- [ ] Create the https module
+- [ ] Create the irc module
+- [ ] Create the smtp module
 - [ ] Create the To-Do List
 - [ ] Clean up the code
 
