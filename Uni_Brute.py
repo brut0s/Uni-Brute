@@ -65,21 +65,13 @@ print "#" * 69
 
 
 first_name = raw_input("\n[1]...Please enter Target's Fist Name: ")
-
 last_name = raw_input("\n[2]...Please Enter The Target's Last Name: ")
-
 nick_name = raw_input("\n[3]...Please Enter The Target's Nick Nmae: ")
-
 middle_name = raw_input("\n[4]...Please Enter The Target's Middle Initial: ")
-
 yob = raw_input("\n[5]...Please Enter The Target's YOB: ")
-
 last_four = raw_input("\n[6]...Please Enter The Target's Last 4 Of Digits Of Phone Number: ")
-
 specail_char = raw_input("\n[7]...Please Enter Any Special Characters, like this '!, #, &' If Not Then Hit 'RETURN': ")
-
 save_to_file = raw_input("\n[8]...Please Specify Path To Save Wordlists: ") #i also want to add the current path not #sure how
-
 
 print "#" * 60
 
@@ -107,19 +99,12 @@ if ans == "2":
 
 	print "[!]...To Generate Custom List of UserNames I Need The Following: "
 
-
 first_name = raw_input("\n[1]...Please enter Target's Fist Name: ")
-
 last_name = raw_input("\n[2]...Please Enter The Target's Last Name: ")
-
 nick_name = raw_input("\n[3]...Please Enter The Target's Nick Nmae: ")
-
 yob = raw_input("\n[5]...Please Enter The Target's DOB: ")
-
 specail_char = raw_input("\n[7]...Please Enter Any Special Characters If no the just hit 'RETURN': ")
-
 save_to_file = raw_input("\n[8]...Please Specify Path To Save Wordlists: ") #i also want to add the current path not sure how
-
 
 print "#" * 60
 
