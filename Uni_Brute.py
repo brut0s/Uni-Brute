@@ -66,15 +66,15 @@ print "#" * 69
 
 first_name = raw_input("\n[1]...Please enter Target's Fist Name: ")
 last_name = raw_input("\n[2]...Please Enter The Target's Last Name: ")
-nick_name = raw_input("\n[3]...Please Enter The Target's Nick Nmae: ")
+nick_name = raw_input("\n[3]...Please Enter The Target's Nick Name: ")
 middle_name = raw_input("\n[4]...Please Enter The Target's Middle Initial: ")
 yob = raw_input("\n[5]...Please Enter The Target's YOB: ")
 last_four = raw_input("\n[6]...Please Enter The Target's Last 4 Of Digits Of Phone Number: ")
 specail_char = raw_input("\n[7]...Please Enter Any Special Characters, like this '!, #, &' If Not Then Hit 'RETURN': ")
 save_to_file = raw_input("\n[8]...Please Specify Path To Save Wordlists: ") #i also want to add the current path not #sure how
 
-print "#" * 60
 
+print "#" * 60
 print """\nYou Entered:
 
 	\n[1] First Name: %s
@@ -90,7 +90,6 @@ print """\nYou Entered:
 first_name, last_name, middle_name, yob, last_four, specail_char, save_to_file)
 
 
-
 if ans == None:
         print "\n [-]...Not a Valid Option, Select From The Following"
 
@@ -101,13 +100,13 @@ if ans == "2":
 
 first_name = raw_input("\n[1]...Please enter Target's Fist Name: ")
 last_name = raw_input("\n[2]...Please Enter The Target's Last Name: ")
-nick_name = raw_input("\n[3]...Please Enter The Target's Nick Nmae: ")
-yob = raw_input("\n[5]...Please Enter The Target's DOB: ")
-specail_char = raw_input("\n[7]...Please Enter Any Special Characters If no the just hit 'RETURN': ")
+nick_name = raw_input("\n[3]...Please Enter The Target's Nick Name: ")
+yob = raw_input("\n[5]...Please Enter The Target's YOB: ")
+specail_char = raw_input("\n[7]...Please Enter Any Special Characters, like this '!, #, &' If Not Then Hit 'RETURN': ")
 save_to_file = raw_input("\n[8]...Please Specify Path To Save Wordlists: ") #i also want to add the current path not sure how
 
-print "#" * 60
 
+print "#" * 60
 print """\nYou Entered:
 
 	\n[1] First Name: %s
