@@ -94,7 +94,16 @@ if ans == None:
         print "\n [-]...Not a Valid Option, Select From The Following"
 
 
-if ans == "2":
+
+#	
+
+# lines between the 3 "#" is where we need to add code for generating wordlist under 'create password lists option'
+#and having it save the file with printing out what youve enter and verifying if its correct. then have it loop back to main menu
+	
+#	
+	
+	
+	if ans == "2":
 
 	print "[!]...To Generate Custom List of UserNames I Need The Following: "
 
@@ -124,6 +133,19 @@ if ans == None:
 	print "\n [-]...Not a Valid Option, Select From The Following"
 
 
+	
+	
+	
+	
+#	
+#	
+#code in this section is the same for ssreating password lists but for username list instead.	
+#	then have it loop back to main menu
+
+
+
+
+
 
 while ans == "3":
 
@@ -133,6 +155,6 @@ print "#" * 60
 url_to_scrape = raw_input("[!]...Enter The Targets Source Account, via Website: ")
 print "#" * 60
 
-
+#any code beyond this point is the scraper, running attack,
 
 #url = requests.get(url_to_scrape)
