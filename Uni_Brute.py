@@ -113,7 +113,7 @@ print """\nYou Entered:
 	\n[2] Last Name: %s
 	\n[3] Nick Name: %s
 	\n[4] YOB: %s
-	\n[5] Specail Characters: %s
+	\n[5] Special Characters: %s
 	\n[6] Path To Save WordList: %s
 	\n\nIs This Correct? Enter [Y]/[N] If Yes Hit 'Return'""" % (
 
@@ -127,7 +127,7 @@ if ans == None:
 
 while ans == "3":
 
-	print "[!]...Before You can Attemp To Crack I The Targets Account You Need a Source"
+	print "[!]...Before You can Attemp To Crack The Targets Account You Need a Source"
 
 print "#" * 60	
 url_to_scrape = raw_input("[!]...Enter The Targets Source Account, via Website: ")
