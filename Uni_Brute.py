@@ -65,16 +65,24 @@ print "#" * 69
 
 
 first_name = raw_input("\n[1]...Please enter Target's Fist Name: ")
+
 last_name = raw_input("\n[2]...Please Enter The Target's Last Name: ")
-nick_name = raw_input("\n[3]...Please Enter The Target's Nick Name: ")
+
+nick_name = raw_input("\n[3]...Please Enter The Target's Nick Nmae: ")
+
 middle_name = raw_input("\n[4]...Please Enter The Target's Middle Initial: ")
-yob = raw_input("\n[5]...Please Enter The Target's YOB: ")
+
+yob = raw_input("\n[5]...Please Enter The Target's DOB: ")
+
 last_four = raw_input("\n[6]...Please Enter The Target's Last 4 Of Digits Of Phone Number: ")
-specail_char = raw_input("\n[7]...Please Enter Any Special Characters, like this '!, #, &' If Not Then Hit 'RETURN': ")
-save_to_file = raw_input("\n[8]...Please Specify Path To Save Wordlists: ") #i also want to add the current path not #sure how
+
+specail_char = raw_input("\n[7]...Please Enter Any Special Characters If no the just hit 'RETURN': ")
+
+save_to_file = raw_input("\n[8]...Please Specify Path To Save Wordlists: ") #i also want to add the current path not sure how
 
 
 print "#" * 60
+
 print """\nYou Entered:
 
 	\n[1] First Name: %s
@@ -90,39 +98,48 @@ print """\nYou Entered:
 first_name, last_name, middle_name, yob, last_four, specail_char, save_to_file)
 
 
+
 if ans == None:
         print "\n [-]...Not a Valid Option, Select From The Following"
 
 
 
-#	
 
-# lines between the 3 "#" is where we need to add code for generating wordlist under 'create password lists option'
-#and having it save the file with printing out what youve enter and verifying if its correct. then have it loop back to main menu
-	
-#	
-	
-	
-	if ans == "2":
+#
+#code for this section is for generating the wordlists and saving to a file at the users prompt where to save  
+#also need to make it loop back to the main menu
+#
+
+
+
+
+if ans == "2":
 
 	print "[!]...To Generate Custom List of UserNames I Need The Following: "
 
+
 first_name = raw_input("\n[1]...Please enter Target's Fist Name: ")
+
 last_name = raw_input("\n[2]...Please Enter The Target's Last Name: ")
-nick_name = raw_input("\n[3]...Please Enter The Target's Nick Name: ")
-yob = raw_input("\n[5]...Please Enter The Target's YOB: ")
-specail_char = raw_input("\n[7]...Please Enter Any Special Characters, like this '!, #, &' If Not Then Hit 'RETURN': ")
-save_to_file = raw_input("\n[8]...Please Specify Path To Save Wordlists: ") #i also want to add the current path not sure how
+
+nick_name = raw_input("\n[3]...Please Enter The Target's Nick Nmae: ")
+
+yob = raw_input("\n[5]...Please Enter The Target's DOB: ")
+
+specail_char = raw_input("\n[7]...Please Enter Any Special Characters If no the just hit 'RETURN': ")
+
+save_to_file = raw_input("\n[8]...Please Specify Path To Save Wordlists: ") #i also want to print out the current path not sure how
 
 
 print "#" * 60
+
 print """\nYou Entered:
 
 	\n[1] First Name: %s
 	\n[2] Last Name: %s
 	\n[3] Nick Name: %s
 	\n[4] YOB: %s
-	\n[5] Special Characters: %s
+	\n[5] Specail Characters: %s
 	\n[6] Path To Save WordList: %s
 	\n\nIs This Correct? Enter [Y]/[N] If Yes Hit 'Return'""" % (
 
@@ -133,28 +150,47 @@ if ans == None:
 	print "\n [-]...Not a Valid Option, Select From The Following"
 
 
-	
-	
-	
-	
-#	
-#	
-#code in this section is the same for ssreating password lists but for username list instead.	
-#	then have it loop back to main menu
 
 
-
-
+#
+#code for this section is for generating the wordlists and saving to a file at the users prompt where to save 
+#same code as for option 1 in the main menu but with diff input from user
+#also need to make it loop back to the main menu
+#in other words same code as in the first option in the main menu
+#
 
 
 while ans == "3":
 
-	print "[!]...Before You can Attemp To Crack The Targets Account You Need a Source"
+	print "[!]...Before You can Attemp To Crack I The Targets Account You Need a Source"
 
 print "#" * 60	
 url_to_scrape = raw_input("[!]...Enter The Targets Source Account, via Website: ")
 print "#" * 60
 
-#any code beyond this point is the scraper, running attack,
+
+
+
+
+
+#
+#code for this section is for adding the scraper for finding the login page from the users input of the source
+#then add code to start the bruteforce attack
+#
+#once the attck is finish have it print out if it was found or not 
+#and have it print out the % of the attack completed acording to how much of the wordlists was already used
+#
+
+
 
 #url = requests.get(url_to_scrape)
+
+
+
+
+
+
+#
+#and then add an options to loop back to the main menu or quit program 
+#
+
