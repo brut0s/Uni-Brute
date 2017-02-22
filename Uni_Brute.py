@@ -27,7 +27,7 @@ print """
 
                                             {{Contributers}}
 
-                                             ***Brandon*** #will be changed
+                                             ***TheCryptek***
                ++++_________________________|_____________|________________________++++
                  |+    This program is designed to bruteforcing website accounts    +|
                  |+ with interactive questions to generate profile about the Target +|
