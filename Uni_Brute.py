@@ -103,8 +103,8 @@ print """\nYou Entered:
 first_name, last_name, nick_name, middle_name, yob, last_four, specail_char, save_to_file)
 
 
-if ans == none:
-	print "\n [-]...Not a Valid Option, Select From The Following"
+#if ans == none:
+#	print "\n [-]...Not a Valid Option, Select From The Following"
 
 print "\n\t[!]...Now Generating WordList of Possible PassWords..."
 print "\n[!]...Please Wait..."
