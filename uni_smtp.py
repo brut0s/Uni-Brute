@@ -12,10 +12,10 @@ smtpserver = smtplib.SMTP(server, port)
 smtpserver.ehlo()
 smtpserver.starttls()
 
-print "Please enter the targets email address.")
+print "Please enter the targets email address."
 user = raw_input("> ")
 
-print "Please enter the path to the worldlist.")
+print "Please enter the path to the worldlist."
 passwfile = raw_input("> ")
 
 passwfile = open(passwfile, "r")
