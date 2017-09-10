@@ -1,8 +1,8 @@
-# Uni-Brute.py
+# Uni-Brute
 
 Universal brute-forcing script.
 
-Supports http | https | irc | smtp
+Supports http | https | smtp
 
 Has a built in target profiler.
 
@@ -13,10 +13,8 @@ Has a built in target profiler.
 - [ ] Integrate the http module
 - [ ] Create the https module
 - [ ] Integrate the https module
-- [ ] Create the irc module
-- [ ] Integrate the irc module
-- [ ] Create the smtp module
-- [ ] Integrate the smtp module
+- [X] Create the smtp module
+- [X] Integrate the smtp module
 - [ ] Clean up the code
 - [X] Create the To-Do List
 
